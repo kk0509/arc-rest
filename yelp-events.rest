@@ -1,0 +1,37 @@
+{
+	"events":{
+		"#path":[
+			"https://api.yelp.com/v3/events /events"
+		],
+		"attending_count":"Integer",
+		"category":"VarChar(64)",
+		"cost":"VarChar(64)",
+		"cost_max":"VarChar(64)",
+		"description":"VarChar(238)",
+		"event_site_url":"VarChar(310)",
+		"id":"VarChar(75),#key",
+		"image_url":"VarChar(102)",
+		"interested_count":"Integer",
+		"is_canceled":"Boolean",
+		"is_free":"Boolean",
+		"is_official":"Boolean",
+		"latitude":"Double",
+		"longitude":"Double",
+		"name":"VarChar(64)",
+		"tickets_url":"VarChar(64)",
+		"time_end":"Timestamp(0)",
+		"time_start":"Timestamp(0)",
+		"location":{
+						"address1":"VarChar(64)",
+						"address2":"VarChar(64)",
+						"address3":"VarChar(64)",
+						"city":"VarChar(64)",
+						"zip_code":"Integer",
+						"country":"VarChar(64)",
+						"state":"VarChar(64)",
+						"display_address":"JSON",
+						"cross_streets":"VarChar(64)"
+		},
+		"business_id":"VarChar(64)"
+	}
+}
