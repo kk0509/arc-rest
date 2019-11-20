@@ -1,3 +1,7 @@
+---
+layout: null
+search: exclude
+---
 {
 	"events":{
 		"#path":[
